@@ -18,9 +18,9 @@ graph TD
     C -->|2. Image Optimization| E["Sharp / gatsby-plugin-image"]
     C -->|3. SSG Process| F["Generate HTML & JSON"]
     F -->G["Netlify Edge Network"]
-    G -->H("User in NY")
-    G -->I("User in London")
-    G -->J("User in Tokyo")
+    G -->H("PoP: New York (US-East)")
+    G -->I("PoP: London (EU-West)")
+    G -->J("PoP: Tokyo (AP-Northeast)")
 ```
 
 ## Optimization Techniques
