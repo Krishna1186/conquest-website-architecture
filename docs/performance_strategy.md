@@ -12,15 +12,15 @@ Conquest works more like a vending machine. The content is pre-packaged and read
 
 ```mermaid
 graph TD
-    A[Marketing Team] -->|Writes Content| B(CMS / Content System)
-    B -->|Trigger Update| C{Build System (CI/CD)}
-    C -->|1. Fetch Content| D[Get Text & Images]
-    C -->|2. Optimize| E[Resize Images / Minify Code]
-    C -->|3. Build Pages| F[Create HTML Files]
-    F -->G[Global Delivery Network]
-    G -->H(User in NY)
-    G -->I(User in London)
-    G -->J(User in Tokyo)
+    A["Marketing Team"] -->|Writes Content| B("CMS / Content System")
+    B -->|Trigger Update| C{"Build System (CI/CD)"}
+    C -->|1. Fetch Content| D["Get Text & Images"]
+    C -->|2. Optimize| E["Resize Images / Minify Code"]
+    C -->|3. Build Pages| F["Create HTML Files"]
+    F -->G["Global Delivery Network"]
+    G -->H("User in NY")
+    G -->I("User in London")
+    G -->J("User in Tokyo")
 ```
 
 ## Optimization Techniques
